@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
  
-            Console.WriteLine("Hi, bastard! Let's play! Try to guess the number I generated :)");
+            Console.WriteLine("Hi, bastard! Let's play! Try to guess the number from 1 till 5 I generated :)");
             
            
             bool helper = true;
