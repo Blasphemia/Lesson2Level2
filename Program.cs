@@ -67,18 +67,18 @@ namespace ConsoleApp1
 
                 if (enterNumber < number)
                 {
-                    Console.WriteLine("Vvedite bolshee chislo!!! ");
+                    Console.WriteLine("Enter a larger numberr ! ");
                     enterNumber = Convert.ToInt32(Console.ReadLine());
                 }
                 else if (enterNumber > number)
                 {
-                    Console.WriteLine("Vvedite menshee chislo!!! ");
+                    Console.WriteLine("Enter a lower number!");
                     enterNumber = Convert.ToInt32(Console.ReadLine());
                 } 
 
             }
-            Console.WriteLine("Krosavcheg!!! Ugadal!! ");
-            Console.WriteLine("i guesses " + number);
+            Console.WriteLine("Krosavcheg!!!  ");
+            Console.WriteLine("i guess " + number);
             
             
         }
